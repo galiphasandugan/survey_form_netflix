@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto Flex', sans-serif;
+     letter-spacing : 1px;
+}
+
+
+#main{
+    padding: 270px 50px;   
+}
+#table{
+    /* border: 2px solid blue; */
+    margin-left: 500px;
+    background-color:whitesmoke;
+    color: black;
+    width: 800px;
+    height: 250px;
+    line-height: 2px
+    
+}
+#başlık{
+    border: 1px black;
+    padding: 0;
+    margin:0;
+    background-color: black;
+    color: white;
+    
+}
+tbody tr td:first-child{
+    text-align: left;
+    width: 150px;
+}
+tbody tr td:nth-child(2){
+    text-align: left;
+    width: 350px;
+}
+tbody tr td:nth-child(3){
+    text-align: center;
+    width: 90px;
+}
+tbody tr td:nth-child(4){
+    text-align: right;
+    width: 150px;
+}
+tbody tr td:nth-child(5){
+    text-align: right;
+    width: 0px;
+}
+tbody tr td:nth-child(6){
+    text-align: center;
+    width: 300px;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(243, 237, 237) ;
+}
+tbody{
+    border: 2px black;
+    background-color: rgb(208, 204, 204);
+}
+th,td{
+    /* border: 0.1px solid white; */
+    width: 150px;
+    height: 30px;
+    padding: 0px 4px;
+    margin: 0;
+}
+/* td.a::after{
+  font-family: 'Font Awesome 5 Free';
+  content: '\f044''\f2ed';
+  text-align: left;
+  width: 90px;
+  
+} */
+tfoot td {
+    color: white;
+    background-color: rgb(60, 60, 60);
+    
+    
+}
+.d{
+    text-align: center;
+    position: relative;
+    
+}
+
+span{
+color: rgb(60, 60, 60);
+
+}
+button{
+    margin: 7px 6px;
+    font-size: 18px;
+    border-color:rgb(237, 119, 119) ;
+    color: white;
+    background-color: rgb(237, 119, 119);
+    width: 200px;
+    height: 40px;
+    position:relative;
+    left: 875px;
+}
+
+i{
+    color: black;
+    padding: 0px 7px;
+}
+
